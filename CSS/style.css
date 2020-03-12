@@ -1,0 +1,53 @@
+
+
+ body{
+    background-image: url("../CSS/images/tic-tac-toe-3.jpg");
+    margin: 0px;
+  }  
+ 
+ 
+ #boxes{
+     display: grid;
+     grid-template-columns: repeat(3, 150px);
+     justify-content: left;
+     margin-left: 150px;
+     margin-top: 120px;
+  
+     
+ 
+ }
+ #boxes > div{
+     background-color: beige;
+     color: rgb(12, 8, 3);
+     border: 1px solid black;
+     border-width: 3px;
+     text-align: center;
+     font-size: 50px;    
+     height:150px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+  
+     
+ 
+     
+ }
+ #boxes > div:hover{
+     cursor: pointer;
+     background-color: bisque;
+ }
+ #button{
+     margin-top: 20px;
+     line-height: 60px;
+     font-weight: bold;
+     font-size: 20px;
+     padding: 0 20px;
+     margin-left: 300px;
+     background: bisque;
+     border: none;
+ 
+ }
+ #button:hover{
+     cursor: pointer;
+     background-color:beige;
+ }
