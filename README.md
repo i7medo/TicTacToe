@@ -1,7 +1,8 @@
 # project No.1 :
 ## TicTacToe
-
-[TicTacToe](https://github.com/i7medo/TicTacToe.git)
+### Link to the game:
+[TicTacToe](https://i7medo.github.io/TicTacToe/
+)
 
 ## Libraries Used:
 
